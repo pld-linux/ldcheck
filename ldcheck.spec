@@ -1,12 +1,12 @@
 Summary:	Broken library dependecies checker
 Summary(pl):	Znajdowanie b³êdnych zale¿no¶ci od bibliotek
 Name:		ldcheck
-Version:	0.9
+Version:	0.95
 Release:	0.1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://dl.sourceforge.net/ldcheck/%{name}_%{version}.tar.gz
-# Source0-md5:	a71402adf9957bef9cbfc411e0899828
+# Source0-md5:	9a0f0ba1dfddfa2375771c6ea17267fd
 URL:		http://ldcheck.sourceforge.net/
 Requires:	bash
 BuildArch:	noarch
