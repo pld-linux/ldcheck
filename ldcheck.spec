@@ -1,13 +1,15 @@
 Summary:	Broken library dependecies checker
-#Summary(pl):	
+Summary(pl):	Znajdowanie b³êdnych zale¿no¶ci od bibliotek
 Name:		ldcheck
 Version:	0.9
 Release:	0.1
 License:	GPL
 Group:		Applications/Console
-Source0:	http://dl.sourceforge.net/ldcheck/%{name}_%{version}.tar.gz
-# Source0-md5:	a71402adf9957bef9cbfc411e0899828
+Source0:	http://dl.sourceforge.net/ldcheck/%{name}_%{version}.tar.bz2
+# Source0-md5:	485d72581d354ba3fd07fad429e9f718
 URL:		http://ldcheck.sourceforge.net/
+Requires:	bash
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -16,15 +18,15 @@ which distribution package to re-compile or re-install to resolve the
 problem.
 
 %description -l pl
+Narzêdzie to wyszukuje wyszukuje b³êdne zale¿no¶ci od bibliotek i
+sugeruje które pakiety nale¿y przebudowaæ b±d¼ przekompilowaæ w celu
+rozwi±zania tego problemu.
 
 %prep
 %setup -q -c
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
 
 install local/bin/ldcheck 	$RPM_BUILD_ROOT%{_bindir}
