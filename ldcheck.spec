@@ -5,8 +5,8 @@ Version:	0.9
 Release:	0.1
 License:	GPL
 Group:		Applications/Console
-Source0:	http://dl.sourceforge.net/ldcheck/%{name}_%{version}.tar.bz2
-# Source0-md5:	485d72581d354ba3fd07fad429e9f718
+Source0:	http://dl.sourceforge.net/ldcheck/%{name}_%{version}.tar.gz
+# Source0-md5:	a71402adf9957bef9cbfc411e0899828
 URL:		http://ldcheck.sourceforge.net/
 Requires:	bash
 BuildArch:	noarch
