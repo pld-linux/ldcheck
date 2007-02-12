@@ -1,5 +1,5 @@
 Summary:	Broken library dependecies checker
-Summary(pl):	Znajdowanie b³êdnych zale¿no¶ci od bibliotek
+Summary(pl.UTF-8):   Znajdowanie bÅ‚Ä™dnych zaleÅ¼noÅ›ci od bibliotek
 Name:		ldcheck
 Version:	0.95
 Release:	0.1
@@ -17,10 +17,10 @@ Tool to check for broken library dependancies in Linux and recommend
 which distribution package to re-compile or re-install to resolve the
 problem.
 
-%description -l pl
-Narzêdzie to wyszukuje wyszukuje b³êdne zale¿no¶ci od bibliotek i
-sugeruje które pakiety nale¿y przebudowaæ b±d¼ przekompilowaæ w celu
-rozwi±zania tego problemu.
+%description -l pl.UTF-8
+NarzÄ™dzie to wyszukuje wyszukuje bÅ‚Ä™dne zaleÅ¼noÅ›ci od bibliotek i
+sugeruje ktÃ³re pakiety naleÅ¼y przebudowaÄ‡ bÄ…dÅº przekompilowaÄ‡ w celu
+rozwiÄ…zania tego problemu.
 
 %prep
 %setup -q -c
