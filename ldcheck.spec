@@ -1,5 +1,5 @@
 Summary:	Broken library dependecies checker
-Summary(pl.UTF-8):   Znajdowanie błędnych zależności od bibliotek
+Summary(pl.UTF-8):	Znajdowanie błędnych zależności od bibliotek
 Name:		ldcheck
 Version:	0.95
 Release:	0.1
